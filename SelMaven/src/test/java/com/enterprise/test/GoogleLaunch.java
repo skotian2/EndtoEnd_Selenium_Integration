@@ -9,7 +9,7 @@ public class GoogleLaunch {
   public void BrowserLaunch() 
   {
 	  System.setProperty("webdriver.chrome.driver","C:\\Code\\Chrome\\chromedriver.exe");	  
-	   WebDriver driver = new ChromeDriver();
-	   driver.get("https://www.facebook.com");
+	   WebDriver demo = new ChromeDriver();
+	   demo.get("https://www.facebook.com");
   }
 }
