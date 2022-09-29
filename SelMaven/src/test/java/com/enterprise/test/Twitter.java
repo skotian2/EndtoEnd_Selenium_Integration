@@ -8,7 +8,7 @@ public class Twitter {
   public void twitterLaunch()
   {
   ChromeDriver CD= new ChromeDriver();
-  CD.get("https://twitter.com/?lang=en");
+  CD.get("https://www.discover.com/");
   String Title="";
   }
 }
