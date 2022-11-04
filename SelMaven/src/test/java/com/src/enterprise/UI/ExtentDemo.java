@@ -67,7 +67,7 @@ public class ExtentDemo
     @Test
     public void testCase4() {
         test = extent.createTest("Test Case 4", "PASSED test case");
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
      
     @Test
