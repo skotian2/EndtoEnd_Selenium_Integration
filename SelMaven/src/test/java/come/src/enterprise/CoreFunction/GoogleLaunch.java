@@ -1,4 +1,4 @@
-package com.enterprise.test;
+package come.src.enterprise.CoreFunction;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
