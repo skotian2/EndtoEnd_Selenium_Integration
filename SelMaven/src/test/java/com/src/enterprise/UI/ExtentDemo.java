@@ -70,16 +70,6 @@ public class ExtentDemo
         Assert.assertTrue(true);
     }
      
-    @Test
-    public void testCase5() {
-        test = extent.createTest("Test Case 5", "SKIPPED test case");
-        throw new SkipException("Skipping this test with exception");
-    }
-    
-    @Test
-    public void testCase6(){
-			test = extent.createTest("Test Case 6", "I'm Not Ready, please don't execute me");
-		}
    
     @AfterMethod
     public void getResult(ITestResult result) {
