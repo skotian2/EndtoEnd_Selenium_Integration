@@ -1,23 +1,32 @@
 package com.src.Enterprise.Helper;
 
 import java.util.concurrent.TimeUnit;
+import java.util.logging.LogManager;
 
+import org.apache.commons.logging.Log;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.slf4j.Logger;
 import org.testng.annotations.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.apache.log4j.BasicConfigurator;  
+
 
 public class Base extends ConstantVariable 
 {
+	
 	public static WebDriver driver=null;
 	@BeforeClass
 	public static WebDriver Browsersetup()
 	{
+		 
+		
+
 		Reporter.log("=====Browser Session Started=====", true);
 	    //Use Of Singleton Concept and Initilize webDriver
 		if (driver == null)
