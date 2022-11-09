@@ -7,8 +7,6 @@ public class Twitter {
   @Test
   public void twitterLaunch()
   {
-  ChromeDriver CD= new ChromeDriver();
-  CD.get("https://www.discover.com/");
-  String Title="";
+ 
   }
 }
