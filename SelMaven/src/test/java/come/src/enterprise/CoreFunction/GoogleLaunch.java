@@ -8,8 +8,6 @@ public class GoogleLaunch {
   @Test
   public void BrowserLaunch() 
   {
-	  System.setProperty("webdriver.chrome.driver","C:\\Code\\Chrome\\chromedriver.exe");	  
-	   WebDriver demo = new ChromeDriver();
-	   demo.get("https://www.facebook.com");
+	 
   }
 }
