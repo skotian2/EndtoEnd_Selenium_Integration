@@ -4,7 +4,6 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.src.enterprise.UI.AmazonLogin"/>
-      <class name="com.src.enterprise.UI.ExtentDemo"/>
-    </classes>
+     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
